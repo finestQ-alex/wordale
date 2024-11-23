@@ -14,7 +14,7 @@ footer {
   gap: 5px;
 }
 
-.keyboard-clolum {
+.keyboard-column {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,7 +29,7 @@ footer {
   cursor: pointer;
 }
 
-.keyboard-clolum__wide {
+.keyboard-column__wide {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,7 +44,7 @@ footer {
   cursor: pointer;
 }
 
-.keyboard-clolum__wide img {
+.keyboard-column__wide img {
   width: 30px;
   color: white;
 }
