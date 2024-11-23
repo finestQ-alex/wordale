@@ -1,0 +1,50 @@
+footer {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.keyboard-clolum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d3d6da;
+  width: 60px;
+  height: 80px;
+  border-radius: 5px;
+  background-color: gray;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.keyboard-clolum__wide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d3d6da;
+  width: 90px;
+  height: 80px;
+  border-radius: 5px;
+  background-color: gray;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.keyboard-clolum__wide img {
+  width: 30px;
+  color: white;
+}

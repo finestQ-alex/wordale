@@ -1,0 +1,60 @@
+header {
+  margin-top: 100px;
+  border-top: 2px solid #ededef;
+  border-bottom: 1px solid #ededef;
+  padding-bottom: 5px;
+}
+
+.menu-bar {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  margin-left: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.menu-bar__hamberger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu-bar__hamberger img {
+  width: 25px;
+  margin-left: 25px;
+}
+
+.menu-bar__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu-bar__icon img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+button {
+  margin-right: 25px;
+  border-radius: 15px;
+  border: 1px solid black;
+  font-style: 15px;
+  padding: 8px 5px 8px 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+button:active {
+  background: yellow;
+}
